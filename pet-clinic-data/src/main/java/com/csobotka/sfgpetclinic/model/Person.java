@@ -1,8 +1,5 @@
 package com.csobotka.sfgpetclinic.model;
 
-import javax.persistence.Entity;
-
-@Entity
 public class Person {
 
     private String firstName;
