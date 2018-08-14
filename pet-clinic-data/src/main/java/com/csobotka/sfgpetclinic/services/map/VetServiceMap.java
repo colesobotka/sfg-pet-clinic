@@ -1,11 +1,11 @@
 package com.csobotka.sfgpetclinic.services.map;
 
 import com.csobotka.sfgpetclinic.model.Vet;
-import com.csobotka.sfgpetclinic.services.CrudService;
+import com.csobotka.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
